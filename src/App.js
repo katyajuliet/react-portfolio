@@ -15,7 +15,7 @@ const App = () => {
               <span>Katya Juliet</span>
             </h1>
             <span className="des">Full-Stack Developer & Designer</span>
-            <a href="https://drive.google.com/file/d/1U3SZqt3USbY6xHrIhejREAE91VUp3qZ0/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1ylgEkdn_Qk93qha90uK5WIThHXg-a1Kk/view?usp=sharing">
               <div
                 className="container2-btn2:hover"
                 id="btn2"
@@ -32,23 +32,14 @@ const App = () => {
           <div className="flex-child-2">
             <h2>About Me</h2>
             <p>
-              Hello! I am a UC Berkeley certified full-stack developer &
-              designer with years of experience in technical project management
-              and consulting.
+            7 years experience as a designer and developer committed to innovation, creativity, efficiency & growth.</p><p>Recently earned a certificate in full stack development from UC Berkeley, enhancing my development skills, and have worked as a team leader overseeing 5 app developers as well as a tech project manager on a variety of projects.
             </p>
             <p>
-              I graduated with honors from UC Davis with a B.A in Communication,
-              focusing on digital media, bias & consumer behaviors. 
+            I am passionate, motivated and an honest team player. My intuitive nature helps me succeed and my peers describe me as helpful, knowledgeable and going the extra mile. I believe that communication and authenticity are the keys to success.
               </p>
-              <p>I am
-              motivated, honest, efficient, creative and committed to continuous
-              learning. I am a team player and intuitive by nature. I believe
-              that communication and authenticity are the keys to success.
+              <p>I am confident that I will be an asset to your business and look forward to meeting you!
             </p>
-            <p>
-              I am confident that I will be an asset to your business and look
-              forward to meeting you.
-            </p>
+
             <br></br>
             <h2>Education</h2>
             <p>
