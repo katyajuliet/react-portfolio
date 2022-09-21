@@ -37,10 +37,8 @@ const App = () => {
             8 years experience as a technical project manager, designer and developer, committed to innovation, creativity, efficiency & growth.</p><p>My experience working with cross-functional, local & international teams has taught me the importance of building trusted relationships and inspiring a shared project vision. I believe that communication and authenticity are the keys to success.
             </p>
             <p>
-            I am passionate, motivated and an honest team player. My intuitive nature helps me succeed and my peers describe me as helpful, knowledgeable and going the extra mile.
+            I am passionate, motivated and an honest team player. My intuitive nature helps me succeed and my peers describe me as helpful, knowledgeable and going the extra mile. I am confident that I will be an asset to your business and look forward to meeting you!
               </p>
-              <p>I am confident that I will be an asset to your business and look forward to meeting you!
-            </p>
 
             <br></br>
             <h2>Education</h2>
@@ -55,6 +53,9 @@ const App = () => {
             </p>
           </div>
         </flex-container>
+<div className="flex-child-2">
+<h2>Sample Work</h2>
+</div>
 
         <div className="first hero" id="portfolio">
           <img className="hero-profile-img" src="./img/sphere.png" alt=""></img>
@@ -198,6 +199,12 @@ const App = () => {
             </a>
           </div>
         </div>
+       
+        <div className="flex-child-2">
+        <h2>Click below for more Sample Work & Designs:<br></br>
+            <a href="https://drive.google.com/file/d/1Bg1GZIOMjVBORq5l4g7YHkLBtMp6Hfkb/view" rel="blank">More Projects</a>
+            </h2>
+</div>
 
         <section id="skills">
           <h2 id="skills">
@@ -210,8 +217,9 @@ const App = () => {
           <li>State, OPP, ORM, MySQL, NoSQL</li>
           <li>PWAs, Wire framing, UI/UX, Code Optimization</li>
           <li>
-            JWT, Insomnia, Heroku, Visual Studio Code, Github, Jira, Figma
+            JWT, Insomnia, Heroku, Visual Studio Code, Github, Jira
           </li>
+          <li>Figma, Figma Design Systems, Prototypes</li>
           <li>Computer science knowledge</li>
           <li>Technical documentation</li>
           <li>Agile software development</li>
