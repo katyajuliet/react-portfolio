@@ -281,6 +281,28 @@ flex-container {
   padding: 25px;
 }
 
+.flex-child-3 {
+  flex: 1;
+  justify-content: left;
+  padding: 25px;
+}
+
+.flex-child-3 h2 {
+  font-size: 30px;
+  color: var(--secondary-color);
+  margin-right: 50px;
+  padding-top: 7px;
+  text-align: center;
+}
+
+.flex-child-3 p {
+  font-size: 18px;
+  color: var(--secondary-color);
+  text-align: center;
+  margin-right: 50px;
+  padding: 10px 0px 10px 0px;
+}
+
 .flex-child-2 h2 {
   font-size: 30px;
   color: var(--secondary-color);

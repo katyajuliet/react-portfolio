@@ -1,6 +1,6 @@
 import React from "react";
-import Nav from "./components/Navigation/Navigation"
-import Footer from "./components/Footer/Footer"
+import Nav from "./components/Navigation/Navigation";
+import Footer from "./components/Footer/Footer";
 import "./App.css";
 
 const App = () => {
@@ -14,14 +14,14 @@ const App = () => {
             <h1>
               <span>Katya Juliet</span>
             </h1>
-            <span className="des">Full-Stack Developer, Designer, Technical PM</span>
-            <a href="https://drive.google.com/file/d/1ylgEkdn_Qk93qha90uK5WIThHXg-a1Kk/view?usp=sharing" 
-            rel="no opener"
+            <span className="des">
+              Full-Stack Developer, Designer, Technical PM
+            </span>
+            <a
+              href="https://drive.google.com/file/d/1ylgEkdn_Qk93qha90uK5WIThHXg-a1Kk/view?usp=sharing"
+              rel="no opener"
             >
-              <div
-                className="container2-btn2:hover"
-                id="btn2"
-              ></div>
+              <div className="container2-btn2:hover" id="btn2"></div>
             </a>
           </div>
         </section>
@@ -33,29 +33,63 @@ const App = () => {
 
           <div className="flex-child-2">
             <h2>About Me</h2>
-            <p>
-            8 years experience as a technical project manager, designer and developer, committed to innovation, creativity, efficiency & growth.</p><p>My experience working with cross-functional, local & international teams has taught me the importance of building trusted relationships and inspiring a shared project vision. I believe that communication and authenticity are the keys to success.
-            </p>
-            <p>
-            I am passionate, motivated and an honest team player. My intuitive nature helps me succeed and my peers describe me as helpful, knowledgeable and going the extra mile. I am confident that I will be an asset to your business and look forward to meeting you!
-              </p>
-
             <br></br>
+            <p>
+              Welcome! My name is Katya Juliet Lerner and I live in Fremont, CA.
+              I am passionate about helping others & seeking roles that allow me
+              to use my talents towards progressive, innovative, creative &
+              wondrous advances in technology & the human connection.
+            </p>
+
+            <p>
+              My creative background gives me an edge in the market as
+              businesses pivot to recognize how critical authenticity,
+              engagement, & world-class customer experience really is & that it
+              directly impacts their bottom line. I have spent my professional
+              career dedicated to the deep bonds that form between people when
+              they feel seen and valued, and how businesses can incorporate that
+              into what they offer, build, & how they market their brand.
+              Focusing outward on the customer and thinking like an owner of the
+              business regardless of position is deeply rooted in my core
+              values.
+            </p>
+
+            <p>
+              My unique experience in technology and leadership sets me apart
+              from other candidates. I have 8 years experience as a Technical
+              Project Manager, Designer and Developer, and I have an extensive
+              background in Marketing, Operations, Sales and Leadership in a
+              senior role. I have worked with Fortune-500 companies, small
+              businesses, startups and non-profit organizations which gives me
+              great insight & perspective.
+            </p>
+
+            <p>
+              I am confident that I will be an asset to your company and support
+              your team in successfully achieving goals across the board. Past
+              supervisors have called me their “secret weapon,” and my peers
+              describe me as smart, motivated, efficient, kind and productive. I
+              look forward to connecting with you soon.
+            </p>
+          </div>
+        </flex-container>
+        <flex-container id="about">
+          <div className="flex-child-3">
             <h2>Education</h2>
+            <br></br>
             <p>
               University of California - UC Berkeley<br></br>
               Certificate - Full-Stack Developer. August 2022.
             </p>
             <p>
               University of California - UC Davis<br></br>
-              Bachelor of Arts in Communication, June 2015, Graduated with
-              Honors.
+              Bachelor of Arts in Communication, June 2015.
             </p>
           </div>
         </flex-container>
-<div className="flex-child-2">
-<h2>Sample Work</h2>
-</div>
+        <div className="flex-child-2">
+          <h2>Sample Work</h2>
+        </div>
 
         <div className="first hero" id="portfolio">
           <img className="hero-profile-img" src="./img/sphere.png" alt=""></img>
@@ -199,12 +233,18 @@ const App = () => {
             </a>
           </div>
         </div>
-       
-        <div className="flex-child-2">
-        <h2>Click below for more Sample Work & Designs:<br></br>
-            <a href="https://drive.google.com/file/d/1Bg1GZIOMjVBORq5l4g7YHkLBtMp6Hfkb/view" rel="blank">More Projects</a>
-            </h2>
-</div>
+
+        <div className="flex-child-3">
+          <h2>
+            Click below for more samples & designs:<br></br>
+            <a
+              href="https://drive.google.com/file/d/1Bg1GZIOMjVBORq5l4g7YHkLBtMp6Hfkb/view"
+              rel="blank"
+            >
+              More Projects
+            </a>
+          </h2>
+        </div>
 
         <section id="skills">
           <h2 id="skills">
@@ -216,14 +256,14 @@ const App = () => {
           <li>Web APIs, Third-Party APIs, Server-Side APIs</li>
           <li>State, OPP, ORM, MySQL, NoSQL</li>
           <li>PWAs, Wire framing, UI/UX, Code Optimization</li>
-          <li>
-            JWT, Insomnia, Heroku, Visual Studio Code, Github, Jira
-          </li>
+          <li>JWT, Insomnia, Heroku, Visual Studio Code, Github, Jira</li>
           <li>Figma, Figma Design Systems, Prototypes</li>
           <li>Computer science knowledge</li>
           <li>Technical documentation</li>
           <li>Agile software development</li>
           <li>Technical project management, Scrum &amp; Kanban</li>
+          <li>Team leadership, Marketing, Operations & Sales</li>
+          <li>World-class customer experience</li>
           <li>All website template builders</li>
           <li>WIX Pro</li>
           <li>Canva Pro Designer</li>
@@ -235,10 +275,10 @@ const App = () => {
           <li>Microsoft Office / Google Docs, sheets, preso +</li>
         </section>
 
-       <Footer />
+        <Footer />
       </body>
     </div>
   );
-}
+};
 
 export default App;
