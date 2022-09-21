@@ -8,13 +8,19 @@ const Footer = () => {
                 href="mailto:katyajuliet22@gmail.com"
                 rel="no opener"
               >
-              Email Me
+              Email Me |
               </a>
               <a
                 href="tel:8313456786"
                 rel="no opener"
               >
-             Call Me
+             Call Me |
+              </a>
+              <a
+                href="https://drive.google.com/file/d/1Bg1GZIOMjVBORq5l4g7YHkLBtMp6Hfkb/view?usp=sharing"
+                rel="no opener"
+              >
+              Additional Design & Dev Samples
               </a>
             </p>
             {`Copyright © Katya J. Lerner ${year}. All Rights Reserved.`}
