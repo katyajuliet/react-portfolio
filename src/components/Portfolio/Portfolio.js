@@ -95,7 +95,7 @@
       </div>
 
       <div className="first hero" id="portfolio">
-        <img className="hero-profile-img" src="./img/sphere.png" alt=""></img>
+        <img className="hero-profile-img" src="./img/react-dem.png" alt=""></img>
         <div className="hero-description-bk"></div>
         <div className="hero-logo">
           <img
@@ -104,13 +104,13 @@
           ></img>
         </div>
         <div className="hero-description">
-          <p>The Sphere</p>
+          <p>React JS Landing Demo</p>
         </div>
         <div className="hero-date">
-          <p>August 2022</p>
+          <p>September 2022</p>
         </div>
         <div className="hero-btn">
-          <a href="https://sorcerers-sphere.herokuapp.com/" rel="no opener">
+          <a href="https://react-demo-kjl.netlify.app/" rel="no opener">
             View Website
           </a>
         </div>
