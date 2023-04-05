@@ -29,6 +29,16 @@ const Portfolio = () => {
           <h2>About Me</h2>
           <br></br>
           <p>
+            Hello! My name is Katya Juliet Lerner and I live in Northern
+            California. As an experienced Technical Project Manager, Product
+            Manager & Design Program Manager, I support & develop strong working
+            team relationships. From problem-solving, team communication and
+            culture, to product design execution & cross-functional
+            partnerships, my unique background in communication, leadership, and
+            technology sets me apart from other candidates.
+          </p>
+
+          <p>
             In a world of constant change, we are continuously faced with the
             need to successfully adapt to new conditions. I connect the dots
             that aren't obvious and can make sense of things that seem chaotic
@@ -46,15 +56,6 @@ const Portfolio = () => {
             outstanding user-experience and communication are the keys to
             success and will instill a level of specialization in your team that
             can drive them to the next level of performance.
-          </p>
-
-          <p>
-            As an experienced Technical Project Manager, Product Manager &
-            Design Program Manager, I support & develop strong working team
-            relationships. From problem-solving, team communication and culture,
-            to product design execution & cross-functional partnerships, my
-            unique background in communication, leadership, and technology sets
-            me apart from other candidates.
           </p>
 
           <p>
