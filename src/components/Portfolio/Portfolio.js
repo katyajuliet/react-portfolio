@@ -1,10 +1,9 @@
+import React from "react";
 
-   import React from "react";
-
-   const Portfolio = () => {
-   return (
+const Portfolio = () => {
+  return (
     <div>
-   <section className="hero2-image">
+      <section className="hero2-image">
         <div className="container2">
           <h1>
             <span>Katya Juliet</span>
@@ -30,41 +29,38 @@
           <h2>About Me</h2>
           <br></br>
           <p>
-            Welcome! My name is Katya Juliet Lerner and I live in Fremont, CA.
-            I am passionate about helping others & seeking roles that allow me
-            to use my talents towards progressive, innovative, creative &
-            wondrous advances in technology & the human connection.
+            In a world of constant change, we are continuously faced with the
+            need to successfully adapt to new conditions. I connect the dots
+            that aren't obvious and can make sense of things that seem chaotic
+            or unrelated. It is critical to pace & deliver dynamic projects
+            successfully without losing focus on the micro-details of complex
+            technical solutions.
           </p>
 
           <p>
-            My creative background gives me an edge in the market as
-            businesses pivot to recognize how critical authenticity,
-            engagement, & world-class customer experience really is & that it
-            directly impacts their bottom line. I have spent my professional
-            career dedicated to the deep bonds that form between people when
-            they feel seen and valued, and how businesses can incorporate that
-            into what they offer, build, & how they market their brand.
-            Focusing outward on the customer and thinking like an owner of the
-            business regardless of position is deeply rooted in my core
-            values.
+            Simultaneously, it is also critical to nurture the relationships of
+            the team and partners involved and this is often where people fail.
+            I lead with energy, curiosity & ask questions that encourage my
+            teams to think outside the box and work collaboratively to catch
+            potential critical issues before they arise. I believe that
+            outstanding user-experience and communication are the keys to
+            success and will instill a level of specialization in your team that
+            can drive them to the next level of performance.
           </p>
 
           <p>
-            My unique experience in technology and leadership sets me apart
-            from other candidates. I have 8 years experience as a Technical
-            Project Manager, Designer and Developer, and I have an extensive
-            background in Marketing, Operations, Sales and Leadership in a
-            senior role. I have worked with Fortune-500 companies, small
-            businesses, startups and non-profit organizations which gives me
-            great insight & perspective.
+            As an experienced Technical Project Manager, Product Manager &
+            Design Program Manager, I support & develop strong working team
+            relationships. From problem-solving, team communication and culture,
+            to product design execution & cross-functional partnerships, my
+            unique background in communication, leadership, and technology sets
+            me apart from other candidates.
           </p>
 
           <p>
-            I am confident that I will be an asset to your company and support
-            your team in successfully achieving goals across the board. Past
-            supervisors have called me their “secret weapon,” and my peers
-            describe me as smart, motivated, efficient, kind and productive. I
-            look forward to connecting with you soon.
+            Past supervisors have called me their “secret weapon,” and my peers
+            describe me as smart, motivated, efficient, kind, funny and always
+            productive. I look forward to connecting with you soon.
           </p>
         </div>
       </flex-container>
@@ -83,19 +79,23 @@
         </div>
       </flex-container>
       <div className="flex-child-2">
-        <h2>Sample Work<br></br>
-        <a
+        <h2>
+          Sample Work<br></br>
+          <a
             href="https://drive.google.com/file/d/1Bg1GZIOMjVBORq5l4g7YHkLBtMp6Hfkb/view"
             rel="blank"
           >
             More Projects & Designs Here +
           </a>
-
         </h2>
       </div>
 
       <div className="first hero" id="portfolio">
-        <img className="hero-profile-img" src="./img/react-dem.png" alt=""></img>
+        <img
+          className="hero-profile-img"
+          src="./img/react-dem.png"
+          alt=""
+        ></img>
         <div className="hero-description-bk"></div>
         <div className="hero-logo">
           <img
@@ -265,8 +265,8 @@
         <li>Social Media Marketing / Digital Marketing / Marketing&nbsp;</li>
         <li>Microsoft Office / Google Docs, sheets, preso +</li>
       </section>
-      </div>
-   );
-   };
+    </div>
+  );
+};
 
 export default Portfolio;
